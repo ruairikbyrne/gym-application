@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3b07dbb-34fc-42e7-946d-879321fe76f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Bootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/GymUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/MemberCtrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/Trainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Assessment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Trainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/assessments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/member.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/addassessment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/listassessments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/usersummary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/welcomemenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/trainer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/data.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dev/Assignment3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -101,6 +78,7 @@
       <workItem from="1591450954215" duration="56000" />
       <workItem from="1591451483051" duration="91000" />
       <workItem from="1591461367801" duration="3508000" />
+      <workItem from="1591465910470" duration="49000" />
     </task>
     <servers />
   </component>
