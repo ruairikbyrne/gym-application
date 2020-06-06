@@ -1,0 +1,17 @@
+#{extends 'main.html' /}
+#{set title:'Dashboard' /}
+
+#{menu id:"dashboard"/}
+
+
+
+#{list items:member, as:'member'}
+  <section class="ui raised segment">
+
+    #{usersummary member:member, calculatedBMI:calculatedBMI, categoryBMI:categoryBMI, idealBodyWeight:idealBodyWeight/}
+    #{addassessment member:member /}
+    #{listassessments member:member/}
+  </section>
+#{/list}
+
+

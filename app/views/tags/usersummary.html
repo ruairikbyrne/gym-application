@@ -1,0 +1,27 @@
+
+
+    <section class="ui center aligned middle aligned segment">
+        <div class="ui grid">
+
+                <div class="ui centre aligned four wide column">
+                    <i class="huge user icon"></i>
+                    <p>${_member.name}</p>
+                </div>
+
+                <div class="ui center aligned four wide column">
+                    #{if _idealBodyWeight == true }<i class="huge green tachometer alternate icon"></i><p>Ideal Weight - Yes</p>#{/if}
+                    #{else}<i class="huge red tachometer alternate icon"></i><p>Ideal Weight - No</p> #{/else}
+                </div>
+
+                <div class="ui center aligned four wide column">
+                    <i class="huge heartbeat icon">${_calculatedBMI}</i>
+                    <p>BMI</p>
+                </div>
+
+                <div class="ui center aligned four wide column">
+                    <i class="huge user md icon"></i>
+                    <p>${_categoryBMI}</p>
+                </div>
+
+        </div>
+    </section>

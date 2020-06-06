@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3b07dbb-34fc-42e7-946d-879321fe76f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Bootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/GymUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/MemberCtrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/Trainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Assessment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Trainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/assessments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/member.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/addassessment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/listassessments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/usersummary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/welcomemenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/trainer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/data.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bBFWLIDYYjGTBGHxZutLlii7aR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dev/Assignment3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3b07dbb-34fc-42e7-946d-879321fe76f2" name="Default Changelist" comment="" />
+      <created>1588097610678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588097610678</updated>
+      <workItem from="1588097613063" duration="5881000" />
+      <workItem from="1588103547476" duration="2980000" />
+      <workItem from="1588147154663" duration="3734000" />
+      <workItem from="1588158690307" duration="2515000" />
+      <workItem from="1588163819944" duration="5142000" />
+      <workItem from="1588183965044" duration="6182000" />
+      <workItem from="1588190234697" duration="304000" />
+      <workItem from="1588257429471" duration="611000" />
+      <workItem from="1588270300226" duration="3426000" />
+      <workItem from="1589040611941" duration="148000" />
+      <workItem from="1589040848970" duration="8011000" />
+      <workItem from="1589728684573" duration="949000" />
+      <workItem from="1590228368950" duration="6661000" />
+      <workItem from="1590316394309" duration="7841000" />
+      <workItem from="1590324945207" duration="735000" />
+      <workItem from="1590330207609" duration="5972000" />
+      <workItem from="1590399719538" duration="19000" />
+      <workItem from="1590693100678" duration="606000" />
+      <workItem from="1590920391158" duration="17108000" />
+      <workItem from="1590939550921" duration="1385000" />
+      <workItem from="1591005833485" duration="83000" />
+      <workItem from="1591082927276" duration="335000" />
+      <workItem from="1591111312445" duration="36000" />
+      <workItem from="1591113706776" duration="78000" />
+      <workItem from="1591181337727" duration="160000" />
+      <workItem from="1591193573284" duration="20000" />
+      <workItem from="1591265083024" duration="192000" />
+      <workItem from="1591271066265" duration="15000" />
+      <workItem from="1591372157280" duration="3231000" />
+      <workItem from="1591375719580" duration="8843000" />
+      <workItem from="1591438813504" duration="7348000" />
+      <workItem from="1591449835624" duration="21000" />
+      <workItem from="1591450954215" duration="56000" />
+      <workItem from="1591451483051" duration="91000" />
+      <workItem from="1591461367801" duration="3508000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1506" y="302" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590319972329">
+      <screen x="-1920" y="128" width="1920" height="1040" />
+    </state>
+    <state x="-1506" y="302" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920/-1920.128.1920.1040@-1920.128.1920.1040" timestamp="1590319972329" />
+    <state x="-1112" y="536" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590320036105">
+      <screen x="-1920" y="128" width="1920" height="1040" />
+    </state>
+    <state x="-1112" y="536" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.920/-1920.128.1920.1040@-1920.128.1920.1040" timestamp="1590320036105" />
+    <state x="-1180" y="415" key="FileChooserDialogImpl" timestamp="1591461559423">
+      <screen x="-1920" y="128" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="415" key="FileChooserDialogImpl/0.0.1440.920/-1920.128.1920.1040@-1920.128.1920.1040" timestamp="1591461559423" />
+  </component>
+</project>

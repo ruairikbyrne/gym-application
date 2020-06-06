@@ -1,0 +1,53 @@
+<table class="ui fixed table">
+    <thead>
+    <tr>
+        <th>Date</th>
+        <th>Weight</th>
+        <th>Chest</th>
+        <th>Thigh</th>
+        <th>Upper Arm</th>
+        <th>Waist</th>
+        <th>Hips</th>
+        <th>Trend</th>
+        <th>Comment</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+        #{list items:_member.assessments.reverse(), as: 'assessment'}
+        <tr>
+            <td>
+                ${assessment.assessmentDate}
+            </td>
+            <td>
+                ${assessment.weight}
+            </td>
+            <td>
+                ${assessment.chest}
+            </td>
+            <td>
+                ${assessment.thigh}
+            </td>
+            <td>
+                ${assessment.upperArm}
+            </td>
+            <td>
+                ${assessment.waist}
+            </td>
+            <td>
+                ${assessment.hips}
+            </td>
+            <td>
+                #{if assessment.positiveTrend == true }<i class="large green arrow circle down icon"></i>#{/if}
+                #{else}<i class="large red arrow circle up icon"></i>#{/else}
+            </td>
+            <td>
+                ${assessment.comment}
+            </td>
+            <td>
+                <a href="/member/${_member.id}/deleteassessment/${assessment.id}" class="ui icon button"><i class="red icon trash"></i></a>
+            </td>
+        </tr>
+        #{/list}
+    </tbody>
+</table>

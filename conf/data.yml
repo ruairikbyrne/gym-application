@@ -1,0 +1,53 @@
+Assessment(a1):
+    assessmentDate: 2020-05-16 12:30:56.835
+    weight: 123.3
+    chest: 45.0
+    thigh: 12.5
+    upperArm: 23.3
+    waist: 32.0
+    hips: 38.0
+Assessment(a2):
+    assessmentDate: 2020-05-29 12:30:56.835
+    weight: 123.3
+    chest: 45.0
+    thigh: 12.0
+    upperArm: 23.3
+    waist: 31.0
+    hips: 36.0
+Assessment(a3):
+    assessmentDate: 2020-06-06 12:30:56.835
+    weight: 70.3
+    chest: 40.0
+    thigh: 9.0
+    upperArm: 16.3
+    waist: 28.0
+    hips: 32.0
+
+Member(m1):
+    name: Homer Simpson
+    email: homer@simpson.com
+    password: secret
+    address: Springfield, USA
+    gender: Male
+    height: 1.4
+    startingWeight: 95
+    assessments:
+        - a1
+        - a2
+
+Member(m2):
+    name: Ruairi Byrne
+    email: ruairi@simpson.com
+    password: secret
+    address: Wexford, Ireland
+    gender: Male
+    height: 1.5
+    startingWeight: 95
+    assessments:
+        - a3
+
+Trainer(t1):
+    name: Marge Simpson
+    email: marge@simpson.com
+    password: secret
+

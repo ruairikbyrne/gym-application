@@ -1,0 +1,61 @@
+#{extends 'main.html' /}
+#{set title:'Member Assessments' /}
+
+#{menu id:"memberassessments"/}
+
+
+
+#{list items:member, as:'member'}
+<section class="ui raised segment">
+    #{usersummary member:member, calculatedBMI:calculatedBMI, categoryBMI:categoryBMI, idealBodyWeight:idealBodyWeight/}
+    #{list items:member.assessments, as: 'assessment'}
+    <table class="ui fixed table">
+        <thead>
+        <tr>
+            <th>Weight</th>
+            <th>Chest</th>
+            <th>Thigh</th>
+            <th>Upper Arm</th>
+            <th>Waist</th>
+            <th>Hips</th>
+            <th>Comment</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                ${assessment.weight}
+                </td>
+                <td>
+                ${assessment.chest}
+                </td>
+                <td>
+                ${assessment.thigh}
+                </td>
+                <td>
+                ${assessment.upperArm}
+                </td>
+                <td>
+                ${assessment.waist}
+                </td>
+                <td>
+                ${assessment.hips}
+                </td>
+                <td>
+                ${assessment.comment}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        <div class="column">
+            <form class="ui stacked segment form" action="/member/${member.id}/assessment/${assessment.id}" method="POST">
+                <div class="field">
+                    <label>Comment</label> <input type="text" name="comment">
+                </div>
+                <button class="ui blue submit button">Update</button>
+            </form>
+        </div>
+    #{/list}
+</section>
+#{/list}
+
